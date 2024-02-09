@@ -1,11 +1,10 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(void)
-{
+int main(void) {
   int num;
   printf("Type a number: \n");
-  scanf("%d", &num);
-  printf("Your number is: %d", num);
+  scanf("%i", &num);
+  printf("Your number is: %i", num);
 
   return 0;
 }
