@@ -19,4 +19,6 @@ int main(void) {
   for (i = 0; i < length; i++) {
     printf("num is %d, index is %i \n", nums[i], i);
   }
+
+  printf("%p pointer, %d length \n", &nums, length);
 }
