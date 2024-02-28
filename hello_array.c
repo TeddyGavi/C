@@ -21,4 +21,5 @@ int main(void) {
   }
 
   printf("%p pointer, %d length \n", &nums, length);
+  printf('%p pointer, %d length \n', &nums, length);
 }
